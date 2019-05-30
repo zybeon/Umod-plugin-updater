@@ -14,7 +14,7 @@ function ProgressBar {
 }
                                                                                                                        
 #UPDATE!!!!  Location to your umod (oxide) plugins.
-FILES=/home/zybeon/serverfiles/oxide/plugins/*.cs
+FILES=/home/*/serverfiles/oxide/plugins/*.cs
                                                                                                                        
 n_items=$(ls 2>/dev/null -Ubad1 -- $FILES | wc -l)
 i=0
